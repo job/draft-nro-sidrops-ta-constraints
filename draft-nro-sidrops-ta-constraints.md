@@ -113,11 +113,16 @@ having a set of TAs issue various signed objects that attest to their
 shared understanding of the resources for which each TA is
 authoritative.
 
-## Relationship to other work
+## Related work
 
 This document specifies a method to construct and sign Trust Anchor
 constraints which then can serve as input to the process described in
 [@?I-D.snij-sidrops-constraining-rpki-trust-anchors].
+
+Constraints computed using the methodology specified in this document
+can also be used to construct "Trust Anchor overlay" configurations,
+see [experimental-nro-ta](https://labs.apnic.net/nro-ta/) for an example
+of an overlay.
 
 ## Glossary
 
